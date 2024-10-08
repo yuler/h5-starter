@@ -2,6 +2,11 @@
 
 [![PNPM Badge](https://img.shields.io/badge/developed%20by-pnpm-black)](https://pnpm.io/)
 
+```bash
+git clone --depth 1 https://github.com/yuler/h5-starter <project>
+git commit --amend --message "Initial Commit"
+```
+
 ## Project Structure
 
 ```bash
