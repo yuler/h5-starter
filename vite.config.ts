@@ -10,7 +10,7 @@ import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import IconsResolver from 'unplugin-icons/resolver'
 import { version } from './package.json'
 
-export default defineConfig(async ({ mode }) => {
+export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, __dirname)
 
   return {

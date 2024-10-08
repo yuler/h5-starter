@@ -23,10 +23,9 @@ src                 # 源码目录
 ## Development
 
 - `corepack enable`
-- `pnpm install` 安装依赖
-- `pnpm run dev` 本地开发环境
-
+- `pnpm install`
+- `pnpm run dev`
 
 ## Release
 
-- `npm version <major|minor|patch>` 
+- `npm version <major|minor|patch>`
