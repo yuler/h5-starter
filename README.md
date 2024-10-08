@@ -4,7 +4,7 @@
 
 ```bash
 git clone --depth 1 https://github.com/yuler/h5-starter <project>
-git commit --amend --message "Initial Commit"
+rm -rf .git && git init && git add -A && git commit --message "Initial Commit"
 ```
 
 ## Project Structure
